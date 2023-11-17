@@ -1,0 +1,35 @@
+.transactionHistoryTable {
+  margin-top: 32px;
+  list-style: none;
+  padding: 48px 36px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 24px;
+  border: 1px solid #766f6f;
+  box-shadow: 10px 12px 12px 0px #cab1b14d;
+  background-color: hsla(222, 5%, 63%, 0.4);
+}
+
+.transactionHistoryTableHeader {
+  display: flex;
+  gap: 8px;
+  font-size: 36px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  box-shadow: 3px 3px 5px #000;
+  background-color: hsla(222, 5%, 63%, 0.4);
+}
+
+.transactionHistoryTableBody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px;
+  justify-content: space-between;
+  border-radius: 24px;
+  font-size: 24px;
+  box-shadow: 3px 5px 7px #000;
+}
